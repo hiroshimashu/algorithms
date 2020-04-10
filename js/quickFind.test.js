@@ -5,3 +5,5 @@ test('Correctly initialiaze', () => {
 	const expected = [0, 1, 2, 3];
 	expect(quickFind.intArray).toEqual(expected);
 });
+
+test('Correctly connect', () => {});
