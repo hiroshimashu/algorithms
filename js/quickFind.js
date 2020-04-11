@@ -7,17 +7,19 @@ class QuickFind {
 	}
 
 	connected(p, q) {
-		return (this.intArray[p] = this.intArray[q]);
+		return this.intArray[p] === this.intArray[q];
 	}
 
 	union(p, q) {
 		const pid = this.intArray[p];
 		const qid = this.intArray[q];
 		for (let i = 0; i < this.intArray.length; i++) {
-			if (intArray[i] === pid) {
-				intArray[i] === qid;
+			if (this.intArray[i] === pid) {
+				this.intArray[i] === qid;
 			}
 		}
+
+		return this.intArray;
 	}
 }
 
