@@ -15,7 +15,7 @@ class QuickFind {
 		const qid = this.intArray[q];
 		for (let i = 0; i < this.intArray.length; i++) {
 			if (this.intArray[i] === pid) {
-				this.intArray[i] === qid;
+				this.intArray[i] = qid;
 			}
 		}
 
